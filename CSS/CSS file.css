@@ -1,0 +1,26 @@
+*{
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif; 
+    color: cornsilk;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  @media(min-width: 600px) {
+    nav { flex-direction: row; }
+  }
+
+  nav a{
+      flex: 1;
+      align-items: center;
+      text-align: center;
+      margin: 0.25em;
+      padding: 0.25em;
+      text-decoration: none;
+  }
+  nav a:hover{
+      background-color: rgb(168, 0, 0);
+  }
