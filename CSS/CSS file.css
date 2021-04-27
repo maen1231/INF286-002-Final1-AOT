@@ -11,6 +11,7 @@ nav {
 
   @media(min-width: 600px) {
     nav { flex-direction: row; }
+    .flexbox{ flex-direction: row; }
   }
 
   nav a{
@@ -22,5 +23,25 @@ nav {
       text-decoration: none;
   }
   nav a:hover{
-      background-color: rgb(168, 0, 0);
+      background-color: rgb(126, 2, 2);
   }
+  .flexbox{
+    display: flex;
+    flex-direction: row;
+}
+.flexbox > div{
+    width: 95%;
+    padding: 5px;
+    margin: 0px;
+    border: 1px solid rgb(126, 2, 2);
+}
+#heading{
+    background-color:rgb(126, 2, 2);
+    border: 1px solid black;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+}
+h3{
+    text-align: center;
+}
