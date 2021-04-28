@@ -7,23 +7,62 @@
         // when you click on an image it takes you to a link
         function imageClick(url) {
             window.location = url;
+            
         }
     </script>
     <style>
+        .imgFlexbox{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+
     </style>
 </head>
 
 
 <body>
     <nav>
-        <a onclick="imageClick('index.html')"; style="padding: 0px;
-        margin: 0px; border: 0px;"><img width="100%" src="Images/logo.png"></a><br/>
+        <a onclick="imageClick('index.html')"; style="padding: 0px; margin: 0px; border: 0px;"><img width="100%" src="Images/logo.png"></a><br/>
         <a href="history.html">Histroy</a>
         <a href="nineTitans.html">9 titans</a>
         <a href="mainCharcters.html">Main Characters</a>
         <a href="secondaryCharcters.html">Secondary Characters</a>
         <a href="mainVillians.html">Main Villians</a>
     </nav>
+
+    <div style="flex-direction: column;" class="flexbox">
+        <div id="heading">About Attackon On titan</div>
+        <div><p>Attack on Titan is a wildly popular Japanese dark fantasy anime series adapted from the manga of the same name by Hajime Isayama.The story is set in a world where the remains of humanity live inside three concentric cities. Early on in the series, it is made clear that each of them is being protected by enormous walls, in order to keep the Titans, which are gigantic humanoid beings who devour humans seemingly without any reason, away from the last of humanity. The episodes of the final season of Attack On Titan is currently being released on a weekly basis by its makers.<b>This is why final season information will be left out of this website to avoid spoliers.</b></p></div>
+    </div>
+    <br/>
+    <br/>
+    <div style="flex-direction: column;" class="flexbox">
+        <div id="heading">Plot of the story</div>
+        <div><p>Attack on Titan is set in a world where humanity lives inside cities surrounded by enormous Walls that protect them from Titans, gigantic humanoid creatures who devour humans seemingly without reason. The story centers around Eren Jaeger, his adoptive sister Mikasa Ackermann, and their childhood friend Armin Arlelt, whose lives are changed forever after the appearance of a Colossal Titan, which brings about the destruction of their home town and the death of Eren's mother. Vowing revenge and to reclaim the world from the Titans, Eren, Mikasa, and Armin join the Scout Regiment, an elite group of soldiers who fight Titans outside the Walls.</p></div>
+    </div>
+    <br/>
+    <br/>
+    <div style="flex-direction: column;" class="flexbox">
+        <div id="heading">Where can one watch attack on titan?</div>
+        <div><p>There are several streaming services on which one can stream all the episodes of the hit anime series:</p></div>
+        <div class="imgFlexbox">
+            <div><a href="https://www.funimation.com/shows/attack-on-titan/"><img width="auto" height="140px" src="Images/funimation.jpg"></a></div>
+            <div><a href="https://www.hulu.com/series/attack-on-titan-9c91ffa3-dc20-48bf-8bc5-692e37c76d88"><img width="auto" height="140px" src="Images/hulu.PNG"></a></div>
+            <div><a href="https://www.crunchyroll.com/attack-on-titan"><img width="auto" height="140px" src="Images/crunchyroll.PNG"></a></div>
+        </div>
+    </div>
+    <br/>
+    <br/>
+    <div class="flexbox">
+        <div style="width: 40%; padding: 0%;"><img width="100%" src="Images/Hajime_Isayama.png"/></div>
+        <div style="width: 60%;">
+            <div id="heading">Hajime Isayama</div>
+            <div><p>Hajime Isayama (諫山 創, Isayama Hajime, born August 29, 1986) is a Japanese manga artist. His first and currently ongoing series, Attack on Titan, became one of the best-selling manga series of all time with 100 million copies in circulation as of December 2019.After graduating higschool, he matriculated in the manga design program of the arts department at Kyushu Designer Gakuen. In 2006, he applied for the Magazine Grand Prix known as MGP promoted by Kodansha Ltd. and a short version of Attack on Titan (Shingeki no Kyojin) was given the "Fine Work" award.[4] At age twenty, he moved to Tokyo and worked at an Internet café in order to pursue a career in writing manga.</p></div>
+        </div>
+
+
+
 
 
 </body>
